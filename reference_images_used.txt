@@ -1,0 +1,4 @@
+Tesla image: https://tesla-cdn.thron.com/delivery/public/image/tesla/32e5e0f3-5c04-42ef-8f8f-c6b1c26f8a9e/bvlatuR/std/2880x1800/ms-main-hero-desktop
+CADA logo: https://www.impactcanada.com/cada
+login icon: https://www.pinterest.ca/pin/623607879639921421/
+continue icon: https://thenounproject.com/term/continue/
