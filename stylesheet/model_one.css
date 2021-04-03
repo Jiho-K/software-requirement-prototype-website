@@ -1,0 +1,82 @@
+#model_main {
+  padding-top: 50px;
+}
+
+#model_main {
+  width: 1890px;
+  height: 800px;
+}
+
+#model_main #car_model {
+  width: 80%;
+  height: 100%;
+}
+
+.column {
+  float: left;
+  width: 20%;
+  height: 100%;
+  /*border-right: 1px solid black;*/
+}
+
+#model_main #model {
+  float: left;
+  width: 80%;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+#colour_bar {
+  box-shadow: 5px;
+}
+
+#colour_bar .btn {
+  margin: 5px 12px 5px;
+  padding: 5px 10px 5px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 1px 10px 5px;
+  outline: 0;
+}
+
+#colour_bar #optOne {
+  background-color: red;
+  border-color: rgb(52, 177, 166);
+}
+
+#colour_bar #optThree {
+  background-color: black;
+}
+
+#colour_bar #optTwo {
+  background-color: blue;
+}
+
+#colour_bar #optFive {
+  background-color: white;
+}
+
+#colour_bar #optFour {
+  background-color: grey;
+}
+
+#colour_bar #interior_three {
+  background-color: wheat;
+}
+
+#colour_bar #interior_one {
+  background-color: black;
+}
+
+#colour_bar #interior_two {
+  background-image: linear-gradient(0deg, white 0%, white 49%, black 50%);
+}
