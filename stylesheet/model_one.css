@@ -13,15 +13,28 @@
 }
 
 .column {
+  position: relative;
   float: left;
-  width: 20%;
+  width: 18%;
   height: 100%;
+  padding: 5px 2px 5px;
   /*border-right: 1px solid black;*/
 }
 
+.column #buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  background-color: black;
+  padding: 1px 1px 1px;
+}
+
 #model_main #model {
+  padding: 5px 2px 5px;
   float: left;
-  width: 80%;
+  width: 78%;
 }
 
 p {
@@ -39,8 +52,9 @@ img {
 }
 
 #colour_bar .btn {
-  margin: 5px 12px 5px;
-  padding: 5px 10px 5px;
+  position: relative;
+  margin: 5px 9px 5px;
+  padding: 5px 5px 5px;
   width: 30px;
   height: 30px;
   border: 2px solid black;
