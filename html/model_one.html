@@ -55,14 +55,28 @@
                     <button type="button" class ="btn" id="interior_two" onclick="chngIntTwo()"></button>
                     <button type="button" class ="btn" id="interior_three" onclick="chngIntThree()"></button>
                 </div>
+                <div id="email_button">
+                  <div class="popup" onclick="show_popup()">Select Design</div>
+                  <div class="form-popup" id="email_popup">
+                   <form action="/action_page.php" class="form-container">
+                     <h1>Email</h1>
+
+                     <label for="email"><b>Email</b></label>
+                     <input type="email" placeholder="Enter Email" name="email" required>
+                     <br>
+                     <button type="submit" class="btn">Email</button>
+                     <button type="button" class="btn cancel" onclick="close_popup()">Close</button>
+                   </form>
+                 </div>
+                </div>
                     <!-- <p id="int-colour"></p> -->
                 </div>
                 <img id="model" src="../images/car_models/exterior/model_one/redExterior.jpg" alt="model_one">
             </div>
         </div>
       </div>
-      
-      
+
+
     <!-- end body -->
 
     <!-- start footer -->
@@ -75,5 +89,6 @@
             </div>
         </div>
         <script src="../js/model-query.js"></script>
+        <script src="../js/pop_up.js"></script>
     </body>
 </html>
