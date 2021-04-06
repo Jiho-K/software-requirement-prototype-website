@@ -1,0 +1,169 @@
+#model_main {
+  padding-top: 50px;
+}
+
+#model_main {
+  width: 1890px;
+  height: 800px;
+}
+
+#model_main #car_model {
+  width: 80%;
+  height: 100%;
+  margin: auto;
+}
+
+#email_button {
+    display: flex;
+    padding-top: 50px;
+}
+
+#email_button a {
+  margin: auto;
+}
+
+.column {
+  position: relative;
+  float: left;
+  width: 18%;
+  height: 100%;
+  padding: 5px 2px 5px;
+  /*border-right: 1px solid black;*/
+}
+
+.column #buttons {
+  display: flex;
+  justify-content: space-between;
+}
+
+hr {
+  background-color: black;
+  padding: 1px 1px 1px;
+}
+
+#model_main #model {
+  padding: 5px 2px 5px;
+  float: left;
+  width: 78%;
+}
+
+p {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+img {
+  max-width: 100%;
+}
+
+#colour_bar {
+  box-shadow: 5px;
+}
+
+#colour_bar .btn {
+  position: relative;
+  margin: 5px 9px 5px;
+  padding: 5px 5px 5px;
+  width: 30px;
+  height: 30px;
+  border: 2px solid black;
+  border-radius: 1px 10px 5px;
+  outline: 0;
+}
+
+#colour_bar #optOne {
+  background-color: red;
+  border-color: rgb(52, 177, 166);
+}
+
+#colour_bar #optThree {
+  background-color: black;
+}
+
+#colour_bar #optTwo {
+  background-color: blue;
+}
+
+#colour_bar #optFive {
+  background-color: white;
+}
+
+#colour_bar #optFour {
+  background-color: grey;
+}
+
+#colour_bar #interior_three {
+  background-color: wheat;
+}
+
+#colour_bar #interior_one {
+  background-color: black;
+}
+
+#colour_bar #interior_two {
+  background-image: linear-gradient(0deg, white 0%, white 49%, black 50%);
+}
+
+.popup {
+  cursor: pointer;
+  margin: auto;
+  border: 1px;
+  border-color: grey;
+}
+
+
+
+/* code from  https://www.w3schools.com/howto/howto_js_popup_form.asp*/
+/* The popup form - hidden by default */
+.form-popup {
+  display: none;
+  position: fixed;
+  border: 3px solid #f1f1f1;
+  z-index: 2;
+  text-align: center;
+}
+
+/* Add styles to the form container */
+.form-container {
+  max-width: 300px;
+  padding: 10px;
+  background-color: white;
+}
+
+/* Full-width input fields */
+.form-container input[type=text], .form-container input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  background: #f1f1f1;
+}
+
+/* When the inputs get focus, do something */
+.form-container input[type=text]:focus, .form-container input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit/login button */
+#email_popup .btn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  width: 70px;
+  margin-bottom:10px;
+  opacity: 0.8;
+}
+
+/* Add a red background color to the cancel button */
+#email_popup .cancel {
+  background-color: red;
+}
+
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
+}
